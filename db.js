@@ -2,7 +2,7 @@
 // install mongodb drivers
 const MongoClient = require("mongodb").MongoClient;
 // we also require objectid from mongodb client
-const ObjectID = require('mongodb').objectID;
+const ObjectID = require('mongodb').ObjectID;
 
 // time to give dataabse a name
 const dbname = "crud_mongodb";
